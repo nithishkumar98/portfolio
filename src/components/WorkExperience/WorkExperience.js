@@ -23,13 +23,19 @@ const WorkExperience = () => {
                 style={{ fontFamily: "Josefin Sans" }}
                 className="flex flex-wrap justify-left  text-blue-500 "
               >
+                Software Engineer.
+              </p>
+              <p
+                style={{ fontFamily: "Josefin Sans" }}
+                className="flex flex-wrap justify-left  text-blue-500 "
+              >
                 Bangalore, India
               </p>
               <p
                 style={{ fontFamily: "Josefin Sans" }}
                 className="flex flex-wrap justify-left text-xs text-blue-500 "
               >
-                04/2022 - 10/2023{" "}
+                04/2022 - 10/2023
               </p>
               <p className="border-b-2  border-black w-32 my-5"></p>
               <p
@@ -48,7 +54,7 @@ const WorkExperience = () => {
                 style={{ fontFamily: "Josefin Sans" }}
                 className="flex flex-wrap justify-left text-xs text-blue-500 "
               >
-                04/2022 - 10/2023{" "}
+                08/2021 - 03/2022
               </p>
             </div>
           </div>

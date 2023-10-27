@@ -27,7 +27,7 @@ const SocialMedia = (props) => {
           rel="noopener noreferrer"
         >
           <img
-            style={{ boxShadow: "0 0 28px 5px rgb(4 35 44)" }}
+            style={{ boxShadow: "rgb(95 219 255) 0px 0px 12px 2px" }}
             src={githubImg}
             alt="github"
             className="sm:w-12 sm:h-12 w-10 h-10 rounded"
@@ -39,7 +39,7 @@ const SocialMedia = (props) => {
           rel="noopener noreferrer"
         >
           <img
-            style={{ boxShadow: "0 0 28px 5px rgb(4 35 44)" }}
+            style={{ boxShadow: "rgb(95 219 255) 0px 0px 12px 2px" }}
             src={instaImg}
             alt="insta"
             className="sm:w-12 sm:h-12 w-10 h-10 rounded"
@@ -51,7 +51,7 @@ const SocialMedia = (props) => {
           rel="noopener noreferrer"
         >
           <img
-            style={{ boxShadow: "0 0 28px 5px rgb(4 35 44)" }}
+            style={{ boxShadow: "rgb(95 219 255) 0px 0px 12px 2px" }}
             src={twitterImg}
             alt="twitter"
             className="sm:w-12 sm:h-12 w-10 h-10 rounded"
@@ -63,7 +63,7 @@ const SocialMedia = (props) => {
           rel="noopener noreferrer"
         >
           <img
-            style={{ boxShadow: "0 0 28px 5px rgb(4 35 44)" }}
+            style={{ boxShadow: "rgb(95 219 255) 0px 0px 12px 2px" }}
             src={linkedinImg}
             alt="linkedin"
             className="sm:w-12 sm:h-12 w-10 h-10 rounded"
