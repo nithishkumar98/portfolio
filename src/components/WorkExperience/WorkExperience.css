@@ -1,0 +1,9 @@
+.work-right-wrapper section label{
+    font-weight: 600;
+    font-family: Josefin Sans;
+    margin-right: 5px;
+}
+
+.work-right-wrapper section span{
+    font-family: Josefin sans;
+}
