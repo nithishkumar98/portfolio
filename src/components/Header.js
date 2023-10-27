@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Header = () => {
   const [mobModelState, setMobModelState] = useState(false);
   const mobCloseClickHandler = () => {
-    console.log("hello");
+    console.log("clicked")
     setMobModelState(!mobModelState);
   };
 
@@ -69,21 +69,20 @@ const Header = () => {
           } text-white bg-indigo-900 relative flex-col px-3 gap-4 pt-5 h-screen`}
         >
           <a href="#about">
-            <span href="#skills" className="skills">
-              {" "}
+            <span  onClick={mobCloseClickHandler} className="about">
               About me
             </span>
           </a>
           <a href="#experience">
-            <span className="experience">Work Experience</span>
+            <span onClick={mobCloseClickHandler} className="experience">Work Experience</span>
           </a>
           <a href="#skills">
-            <span href="#skills" className="skills">
+            <span onClick={mobCloseClickHandler} className="skills">
               Skills
             </span>
           </a>
           <a href="#contact">
-            <span className="contact">Contact </span>
+            <span onClick={mobCloseClickHandler} className="contact">Contact </span>
           </a>
           <a
             href="https://www.linkedin.com/in/nithishkumar98/"
