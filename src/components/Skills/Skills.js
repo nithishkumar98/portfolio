@@ -20,7 +20,7 @@ const Skills = () => {
 
   return (
     <div>
-      <div id="skills" className="min-h-screen bg-blue-100 p-10 sm:p-20 ">
+      <div id="skills" className=" bg-blue-100 p-10 sm:p-20 ">
         <div className="text-4xl">
           <p
             style={{ fontFamily: "Josefin Sans" }}
