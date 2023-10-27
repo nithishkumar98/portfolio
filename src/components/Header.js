@@ -66,23 +66,23 @@ const Header = () => {
           style={{ fontFamily: "Josefin Sans" }}
           className={`mob-mid-wrapper ${
             mobModelState ? "flex" : "hidden"
-          } text-white bg-indigo-900 relative flex-col px-3 gap-4 pt-5 h-screen`}
+          } text-white bg-indigo-900 relative flex-col w-1/2 px-3 gap-4 pt-5 h-screen`}
         >
-          <a href="#about">
-            <span  onClick={mobCloseClickHandler} className="about">
+          <a  onClick={mobCloseClickHandler} href="#about">
+            <span  className="about">
               About me
             </span>
           </a>
-          <a href="#experience">
-            <span onClick={mobCloseClickHandler} className="experience">Work Experience</span>
+          <a  onClick={mobCloseClickHandler} href="#experience">
+            <span  className="experience">Work Experience</span>
           </a>
-          <a href="#skills">
-            <span onClick={mobCloseClickHandler} className="skills">
+          <a  onClick={mobCloseClickHandler} href="#skills">
+            <span  className="skills">
               Skills
             </span>
           </a>
-          <a href="#contact">
-            <span onClick={mobCloseClickHandler} className="contact">Contact </span>
+          <a  onClick={mobCloseClickHandler} href="#contact">
+            <span className="contact">Contact </span>
           </a>
           <a
             href="https://www.linkedin.com/in/nithishkumar98/"
