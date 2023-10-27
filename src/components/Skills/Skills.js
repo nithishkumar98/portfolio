@@ -20,11 +20,11 @@ const Skills = () => {
 
   return (
     <div>
-      <div id="skills" className=" bg-blue-100 p-10 sm:p-20 ">
+      <div id="skills" className=" bg-blue-100 p-10  sm:p-20 ">
         <div className="text-4xl">
           <p
             style={{ fontFamily: "Josefin Sans" }}
-            className="flex flex-wrap justify-center mb-5 text-blue-600 underline"
+            className="flex flex-wrap justify-center mb-5 mt-10 text-blue-600 underline"
           >
             Skills
           </p>
