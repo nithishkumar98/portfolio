@@ -3,7 +3,7 @@ import githubImg from "../../assests/socialmedia/github.png";
 import instaImg from "../../assests/socialmedia/instagram.png";
 import twitterImg from "../../assests/socialmedia/twitter.png";
 import linkedinImg from "../../assests/socialmedia/linkedin.png";
-import youtubeImg from "../../assests/socialmedia/youtube.png";
+// import youtubeImg from "../../assests/socialmedia/youtube.png";
 
 const SocialMedia = (props) => {
   // In this props will be width size, horzi/vertical,
@@ -29,6 +29,7 @@ const SocialMedia = (props) => {
           <img
             style={{ boxShadow: "0 0 28px 5px rgb(4 35 44)" }}
             src={githubImg}
+            alt="github"
             className="sm:w-12 sm:h-12 w-10 h-10 rounded"
           />
         </a>
@@ -40,6 +41,7 @@ const SocialMedia = (props) => {
           <img
             style={{ boxShadow: "0 0 28px 5px rgb(4 35 44)" }}
             src={instaImg}
+            alt="insta"
             className="sm:w-12 sm:h-12 w-10 h-10 rounded"
           />
         </a>
@@ -51,6 +53,7 @@ const SocialMedia = (props) => {
           <img
             style={{ boxShadow: "0 0 28px 5px rgb(4 35 44)" }}
             src={twitterImg}
+            alt="twitter"
             className="sm:w-12 sm:h-12 w-10 h-10 rounded"
           />
         </a>
@@ -62,6 +65,7 @@ const SocialMedia = (props) => {
           <img
             style={{ boxShadow: "0 0 28px 5px rgb(4 35 44)" }}
             src={linkedinImg}
+            alt="linkedin"
             className="sm:w-12 sm:h-12 w-10 h-10 rounded"
           />
         </a>
