@@ -4,9 +4,14 @@ import htmlImg from "../../assests/html.png";
 import cssImg from "../../assests/css.png";
 import jsImg from "../../assests/javascript.png";
 import jqueryImg from "../../assests/jquery.png";
-// import reduxImg from "../../assests/redux.png";
+import reduxImg from "../../assests/redux.png";
 import bootstrapImg from "../../assests/bootstrap.png";
 import reactImg from "../../assests/react.png";
+import tailwindImg from "../../assests/tailwind.png";
+import mongoImg from "../../assests/mongo-db.png";
+import nodejsImg from "../../assests/nodejs.png";
+import pythonImg from "../../assests/python.png";
+import expressjsImg from "../../assests/expressjs.png";
 
 const Skills = () => {
   let ipSkills = [
@@ -34,21 +39,21 @@ const Skills = () => {
           >
             Tech-Skills
           </p>
-          <div className="skill-wrapper justify-center flex-wrap flex gap-8 ">
+          <div className="flex justify-center">
+          <div className="skill-wrapper justify-center flex-wrap w-1/2 flex gap-8 ">
             <img src={htmlImg} alt="html" className="sm:w-24 sm:h-24  w-20 h-20" />
             <img src={cssImg} alt="css" className="sm:w-24 sm:h-24 w-20 h-20" />
             <img src={jsImg} alt="js" className="sm:w-24 sm:h-24 w-20 h-20" />
             <img src={jqueryImg} alt="jquery" className="sm:w-24 sm:h-24 w-20 h-20" />
             <img src={bootstrapImg} alt="bootstrap" className="sm:w-24 sm:h-24 w-20 h-20" />
             <img src={reactImg} alt="react" className="sm:w-24 sm:h-24 w-20 h-20" />
-            {/* <img src={reduxImg} className='w-24 h-24' /> */}
-
-            {/* <span>HTML</span>
-                    <span>CSS</span>
-                    <span>Javascript</span>
-                    <span>Jquery</span>
-                    <span>ReactJs</span>
-                    <span>Redux</span> */}
+            <img src={reduxImg} alt="redux" className="sm:w-24 sm:h-24 w-20 h-20" />
+            <img src={tailwindImg} alt="redux" className="sm:w-24 sm:h-24 w-20 h-20" />
+            <img src={mongoImg} alt="redux" className="sm:w-24 sm:h-24 w-20 h-20" />
+            <img src={nodejsImg} alt="redux" className="sm:w-24 sm:h-24 w-20 h-20" />
+            <img src={expressjsImg} alt="redux" className="sm:w-24 sm:h-24 w-20 h-20" />
+            <img src={pythonImg} alt="redux" className="sm:w-24 sm:h-24 w-20 h-20" />
+          </div>
           </div>
         </div>
         <div className="interpersonal-skills ">
