@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Header = () => {
   const [mobModelState, setMobModelState] = useState(false);
   const mobCloseClickHandler = () => {
-    console.log("clicked")
+    console.log("clicked");
     setMobModelState(!mobModelState);
   };
 
@@ -59,7 +59,15 @@ const Header = () => {
             onClick={mobCloseClickHandler}
             className="mob-right-ham cursor-pointer text-2xl"
           >
-            X
+            {mobModelState ? (
+              <div className="text-indigo-900">X</div>
+            ) : (
+              <div>
+                <div className="my-1 bg-indigo-900 h-1 w-6"></div>
+                <div className="my-1 bg-indigo-900 h-1 w-5"></div>
+                <div className="my-1 bg-indigo-900 h-1 w-7"></div>
+              </div>
+            )}
           </div>
         </div>
         <div
@@ -68,20 +76,16 @@ const Header = () => {
             mobModelState ? "flex" : "hidden"
           } text-white bg-indigo-900 relative flex-col w-1/2 px-3 gap-4 pt-5 h-screen`}
         >
-          <a  onClick={mobCloseClickHandler} href="#about">
-            <span  className="about">
-              About me
-            </span>
+          <a onClick={mobCloseClickHandler} href="#about">
+            <span className="about">About me</span>
           </a>
-          <a  onClick={mobCloseClickHandler} href="#experience">
-            <span  className="experience">Work Experience</span>
+          <a onClick={mobCloseClickHandler} href="#experience">
+            <span className="experience">Work Experience</span>
           </a>
-          <a  onClick={mobCloseClickHandler} href="#skills">
-            <span  className="skills">
-              Skills
-            </span>
+          <a onClick={mobCloseClickHandler} href="#skills">
+            <span className="skills">Skills</span>
           </a>
-          <a  onClick={mobCloseClickHandler} href="#contact">
+          <a onClick={mobCloseClickHandler} href="#contact">
             <span className="contact">Contact </span>
           </a>
           <a
